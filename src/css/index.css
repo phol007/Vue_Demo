@@ -1,0 +1,10 @@
+  .card-footer-item{
+    cursor: pointer;
+  }
+  .card-footer-item:hover{
+    cursor: pointer;
+    background: #ecebe9;
+  }
+  .card-footer-item h1{
+    font-weight: bolder;
+  }
