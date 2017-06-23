@@ -4,6 +4,7 @@ import Vue from 'vue'
 import index from './index'
 import router from './router'
 import Resource from 'vue-resource'
+import css from './css/index.css'
 
 Vue.config.productionTip = false
 Vue.use(Resource)
@@ -12,6 +13,7 @@ Vue.use(Resource)
 new Vue({
   el: '#app',
   router,
+  css,
   template: '<index/>',
   components: { index }
 })
